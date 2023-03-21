@@ -128,7 +128,9 @@ Na slici ispod možemo vidjeti primjenu naučenog YOLOv7 modela na videozapis ko
 | YOLOv5s s podešavanjem  | 0.862 | 0.592 | 0.643 | 0.349     |
 | YOLOv7 bez težina       | 0.737 | 0.541 | 0.56  | 0.249     |
 
-Performanse modela najgore kod učenja s nasumično inicijaliziranim težinama. Kada koristimo već određene težine na istom skupu podataka i zamrznemo prvih 10 slojeva modela, rezultati učenja su bolji i vidi se veliki napredak u odnosu na prvi eksperiment. Nakon podešavanja modela preciznost za obje klase se povećala, ali se odziv smanjio. Srednja prosječna preciznost se također smanjila, ali je još uvijek bolja nego u prvom učenju bez definiranih težina. Općenita točnost modela je smanjena, što može značiti nekoliko stvari. Najvjerojatnije je kako podešavanje nije izvedeno korektno za ovaj specifičan model. Moguće je i da baza podataka nema dovoljno instanci svih klasa ili podataka općenito.
+Performanse modela najgore kod učenja s nasumično inicijaliziranim težinama. Kada koristimo već određene težine na istom skupu podataka i zamrznemo prvih 10 slojeva modela, rezultati učenja su bolji i vidi se veliki napredak u odnosu na prvi eksperiment. Nakon podešavanja modela preciznost za obje klase se povećala, ali se odziv smanjio. Srednja prosječna preciznost se također smanjila, ali je još uvijek bolja nego u prvom učenju bez definiranih težina. Općenita točnost modela je smanjena, što može značiti nekoliko stvari. 
+
+Najvjerojatnije je kako podešavanje nije izvedeno korektno za ovaj specifičan model. Moguće je i da baza podataka nema dovoljno instanci svih klasa ili podataka općenito.
 
 ## Zaključak
 
